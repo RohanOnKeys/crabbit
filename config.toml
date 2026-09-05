@@ -1,0 +1,17 @@
+[server]
+host = "0.0.0.0"
+port = 8080
+
+[index]
+shard_count = 4
+data_dir = "./data/index"
+
+[pagination]
+default_page_size = 20
+max_page_size = 100
+cursor_ttl_seconds = 3600
+
+[crawler]
+concurrency = 50
+user_agent = "CrabbitBot/1.0"
+seed_urls = []
