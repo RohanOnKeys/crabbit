@@ -1,6 +1,6 @@
 # Crabbit
 
-A fast, memory safe web search engine written in Rust, built around cursor based pagination so results stay stable and quick even deep into a result set.
+A fast, memory safe web search engine written in Rust, built around cursor based pagination so results stay stable and quick even deep into a result set
 
 ## Overview
 
